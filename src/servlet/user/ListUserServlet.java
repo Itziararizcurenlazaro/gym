@@ -43,7 +43,7 @@ public class ListUserServlet extends HttpServlet {
 
             out.println("<html>");
             out.println("<head>");
-            out.println("<link href='https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/morph/bootstrap.min.css' rel='stylesheet'>");
+            out.println("<link href='https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/vapor/bootstrap.min.css' rel='stylesheet'>");
             out.println("</head>");
             out.println("<body>");
 
