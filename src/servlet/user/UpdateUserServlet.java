@@ -19,7 +19,6 @@ public class UpdateUserServlet extends HttpServlet {
             throws ServletException, IOException {
 
         try {
-
             int id = Integer.parseInt(request.getParameter("id"));
             String name = request.getParameter("name");
             String email = request.getParameter("email");
