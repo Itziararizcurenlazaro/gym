@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+//USER DAO
 public class UserDAO {
 
     public ResultSet listUsers() {
