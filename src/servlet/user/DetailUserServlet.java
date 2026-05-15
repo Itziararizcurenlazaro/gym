@@ -32,7 +32,7 @@ public class DetailUserServlet extends HttpServlet {
                 out.println("<html>");
                 out.println("<head>");
                 out.println("<title>User Details</title>");
-                out.println("<link href='https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/morph/bootstrap.min.css' rel='stylesheet'>");
+                out.println("<link href='https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/vapor/bootstrap.min.css' rel='stylesheet'>");
                 out.println("</head>");
                 out.println("<body>");
                 out.println("<div class='container py-5'>");
