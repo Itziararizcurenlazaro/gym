@@ -1,6 +1,0 @@
-MODELO RELACIONAL – GYM
-
-users [#id, name, email, age, fitness_goal, membership_type]
-trainers [#id, name, speciality, experience_years, email, phone]
-workouts [#id, name, difficulty, duration, description, -id_trainer]
-
