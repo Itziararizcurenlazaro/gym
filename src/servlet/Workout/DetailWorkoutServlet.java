@@ -30,11 +30,35 @@ public class DetailWorkoutServlet extends HttpServlet {
             if (rs.next()) {
                 out.println("<html>");
                 out.println("<head>");
-                out.println("<title>Workout Details</title>");
+                out.println("<meta charset='UTF-8'>");
+                out.println("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">");
+                out.println("<link rel=\"icon\" href=\"img/favicon.ico\" type=\"image/x-icon\">");
+                out.println("<title>Oh My GYM! - Fitness that hits different</title>");
                 out.println("<link href='https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/vapor/bootstrap.min.css' rel='stylesheet'>");
                 out.println("</head>");
                 out.println("<body>");
-                out.println("<div class='container py-5'>");
+
+                out.println("<nav class=\"navbar navbar-expand-lg navbar-light bg-light shadow-sm\">\n" +
+                        "    <div class=\"container-fluid\">\n" +
+                        "        <span class=\"navbar-brand fw-bold\"><img src=\"img/logo.png\" alt=\"OMG Logo\" weight=\"50\" height=\"50\">OH MY GYM!</span>\n" +
+                        "        <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n" +
+                        "            <ul class=\"navbar-nav ms-3\">\n" +
+                        "                <li class=\"nav-item\">\n" +
+                        "                    <a href=\"users\" class=\"nav-link\">Users</a>\n" +
+                        "                </li>\n" +
+                        "                <li class=\"nav-item\">\n" +
+                        "                    <a href=\"trainers\" class=\"nav-link\">Trainers</a>\n" +
+                        "                </li>\n" +
+                        "                <li class=\"nav-item\">\n" +
+                        "                    <a href=\"workouts\" class=\"nav-link\">Workouts</a>\n" +
+                        "                </li>\n" +
+                        "            </ul>\n" +
+                        "        </div>\n" +
+                        "    </div>\n" +
+                        "</nav>");
+
+
+                out.println("<div class='container py-5 text-center'>");
                 out.println("<div class='card shadow-sm p-4'>");
                 out.println("<h2 class='mb-4 fw-bold'>Workout Details</h2>");
 
