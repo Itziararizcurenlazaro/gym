@@ -13,14 +13,15 @@ Pasos para iniciar la aplicación:
 
 1. Descargar el archivo `.zip` del proyecto.
 2. Cargar el proyecto en IntelliJ IDEA.
+   3. NOTA: Comprobar puerto y datos de conexión a la DB.
 3. Realizar el *build* del proyecto desde IntelliJ.
-4. Copiar las carpetas `dao`, `servlet` y `utils` generadas dentro de la carpeta `out` en la siguiente ruta:
+4. Copiar las carpetas `dao`, `servlet` y `utils` generadas dentro de la carpeta `out` en la ruta donde tengas instalado Tomcat:
 ``````
-C:\apache-tomcat-11.0.21\apache-tomcat-11.0.21\webapps\gym\WEB-INF\classes
+~\webapps\gym\WEB-INF\classes
 ``````
 5. Copiar los archivos HTML generados en `out` a la ruta:
 ``````
-C:\apache-tomcat-11.0.21\apache-tomcat-11.0.21\webapps\gym
+~\webapps\gym
 ``````
 6. Iniciar Apache Tomcat ejecutando el archivo `startup.bat`.
 7. Acceder a la aplicación desde el navegador mediante la URL:
