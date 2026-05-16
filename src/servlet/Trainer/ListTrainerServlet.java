@@ -78,7 +78,7 @@ public class ListTrainerServlet extends HttpServlet {
 
             out.println("<div class='mt-3'>");
             out.println("<button class='btn btn-primary shadow-sm'>Search</button>");
-            out.println("<a href='trainers' class='btn btn-secondary shadow-sm ms-2'>Clean</a>");
+            out.println("<a href='trainers' class='btn btn-secondary shadow-sm ms-2'>Clear</a>");
             out.println("</div>");
 
             out.println("</form>");
